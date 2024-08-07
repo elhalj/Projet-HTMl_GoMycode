@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--1- Create the navbar: home, about, work, resume, contact
+
+2- Create the “about” section, ”work” section, ”resume” section, and ”contact” section (using HTML Forms) 
+
+3- Create the page footer.-->
+    <!--entete-->
+    <header>
+        <!--nav-bar-->
+        <nav>
+            <ul>
+                <li><a href="#"><img src="images/logos/first_logo.png" alt="logo_Elhalj"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#About">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--corps de page-->  
+    <main class="main_page">
+        <!--Les differentes sections-->
+        <section id="Work" name="Work">
+            <!--section travail-->
+            <p>My realisation:</p>
+            <table>
+                <tr>
+                    <th>Calculator</th>
+                    <th>wheather</th>
+                    <th>BMI Calculator</th>
+                </tr>
+                <tr>
+                    <td><a href=""><img src="" alt="Calculator project"></a></td>
+                    <td><a href=""><img src="" alt="wheather project"></a></td>
+                    <td><a href=""><img src="" alt="BMI Calculator project"></a></td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="Resume" name="Resume">
+            <!--section cv-->
+            <form>
+                <ul>
+                    <li><a href="#"><img src="" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="" alt="X"></a></li>
+                    <li><a href="#"><img src="" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="" alt="Linkdin"></a></li>
+                </ul>
+                <label for=""><strong>Je suis Wilson Ikeda</strong><br><br>debutant en software developer <br>et bientot senior</label>
+                <p></p>
+                <button class="btn_portfolio"><a href="#">portfolio</a></button>
+                <button class="btn_classic"><a href="#"><img src="images/icons/play.png"></a></button>
+                <span><img src="images/profil/profil.jpg" alt="elhalj"></span>
+            </form>
+        </section>
+
+        <section id="Contact" name="Contact">
+            <!--section contact-->
+            <form class="me_contacter">
+                <fieldset>
+                    <p>Me contacter</p>
+                    <label for="">E-mail: </label>
+                    <input type="text">
+                    <label for="">Numero:</label>
+                    <input type="number"><br>
+                    <label for="">Message: </label>
+                    <textarea name="Message" id="Message" cols="50" rows="10"></textarea>
+                    <input type="submit">
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="About" name="About">
+            <!--section à propos-->
+            <div class="a_propos">
+                <div>
+                    <img src="images/icons/react.png" alt="Developpeur front-end"><br>
+                    <span>Developpeur front-end</span>
+                </div>
+                <div>
+                    <img src="images/icons/node.png" alt="Developpeur back-end"><br>
+                    <span>Developpeur back-end</span>
+                </div>
+                <div class="a_propos">
+                    <img src="images/icons/mongo.png" alt="Developpeur full-stack"><br>
+                    <span>Developpeur full-stack</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--le pieds de page-->
+    <footer id="footer_section">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel culpa dolor optio! Eum saepe distinctio vel iste culpa delectus veniam quos consequuntur temporibus suscipit impedit ipsam quas, voluptas deserunt!</p>
+        
+        <p>Copyright&copy;2020 Wilson Ikeda</p>
+    </footer>
+</body>
+</html>
